@@ -1,0 +1,1424 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:51:38.826Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T12:51:42.462Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T12:53:18.199Z"}
+error: 
+    status - 500 
+    message - ValidationError: "role" is not allowed to be empty 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T12:54:41.743Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T12:55:00.294Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:56:22.958Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T12:56:25.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T12:57:38.811Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:58:41.948Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:58:48.482Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:58:51.690Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T12:58:56.775Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T12:58:59.585Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:00:04.178Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:00:06.983Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:00:09.807Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:00:15.161Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:00:17.841Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:00:28.031Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:00:30.671Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:05:43.485Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.filelibraryusers index: phone_1 dup key: { phone: 8527861989.0 } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-01-06T13:05:58.783Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\My Project\file-library\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\My Project\file-library\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\My Project\file-library\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\My Project\file-library\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\My Project\file-library\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\My Project\file-library\node_modules\express\lib\router\index.js:326:13)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\My Project\file-library\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\My Project\file-library\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:05:58.797Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:14:33.121Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:14:35.731Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:14:39.531Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:14:42.671Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:14:45.683Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:19:28.630Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:19:31.479Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:21:19.169Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:21:21.084Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:21:26.630Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:21:29.788Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:21:32.341Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:21:45.249Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:21:48.687Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:22:36.900Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:13.381Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:17.680Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:20.427Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:24:23.042Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:30.695Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:35.907Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:24:38.186Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:24:40.812Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:25:02.632Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:25:05.183Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:25:07.329Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:25:10.233Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:29:24.066Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:29:54.256Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:29:57.484Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:30:45.505Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:30:47.258Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:30:51.638Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:30:54.260Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:30:56.415Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:30:58.495Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:31:01.846Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:31:04.479Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:31:20.495Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:33:19.458Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:33:22.810Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:33:24.560Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:37:09.735Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:37:52.727Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:37:55.419Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:38:23.141Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:38:26.333Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:38:30.025Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:38:57.083Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:38:59.719Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:39:03.477Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'tokenData' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:7:29)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:40:21.277Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:40:45.702Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:40:48.362Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:45:22.816Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:45:29.151Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:45:49.749Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:45:52.393Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:45:54.924Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:46:28.518Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:46:32.030Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:46:34.901Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:46:45.803Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:47:01.858Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:47:04.450Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '_id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:47:10.318Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:47:30.102Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:47:32.753Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property '_id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:47:33.598Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:53:41.408Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:53:44.001Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:54:56.500Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T13:57:09.436Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T13:57:12.061Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T13:57:17.761Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:04:15.847Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:04:18.601Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:04:21.227Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:04:27.079Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:04:29.651Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:04:42.011Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:04:45.881Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:05:02.850Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:05:04.916Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:05:06.691Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:05:09.280Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:06:38.031Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:08:49.078Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:08:51.858Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:08:55.421Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:08:58.268Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:10:00.057Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:10:02.770Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:10:11.205Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:11:43.069Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:11:46.199Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:11:49.397Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:11.528Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:17.133Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:12:19.735Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:27.604Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:31.493Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:38.186Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:12:40.666Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:12:43.961Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:12:46.196Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:13:23.189Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:13:26.420Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:13:29.041Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:13:34.502Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:13:37.247Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:13:45.227Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:13:47.825Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:13:50.241Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:13:53.096Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:13:53.610Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:16:19.950Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:16:22.615Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:20:03.990Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:20:06.813Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:20:38.126Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:21:05.485Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:21:10.585Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:21:14.563Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:21:22.182Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:21:31.734Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:21:34.285Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:21:52.498Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:21:56.316Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:21:59.237Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:22:22.094Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:22:24.738Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:31)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:22:31.318Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:23:25.864Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:23:28.772Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:24:33.110Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:24:35.937Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:24:41.443Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:24:45.733Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:17.846Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:20.481Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:25:23.008Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:36.477Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:42.497Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:46.439Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:25:50.709Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:25:53.369Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:27:12.923Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:27:18.079Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:27:23.204Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:28:02.440Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:28:05.031Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:28:23.177Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:28:25.094Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:28:26.037Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:28:41.413Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:28:44.500Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:28:44.998Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:29:52.823Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:29:56.551Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:30:02.312Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:31:23.619Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:31:28.364Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:31:31.012Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:31:41.917Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:31:45.178Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:31:56.567Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:35:03.143Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:35:10.152Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:35:12.773Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:35:28.233Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:35:30.805Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:35:44.358Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:35:48.794Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:35:55.097Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:36:33.060Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:37:05.514Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:37:14.322Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:37:16.310Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:37:19.082Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:38:21.328Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:38:26.252Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:39:21.074Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:39:56.509Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:39:59.835Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:40:06.627Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:40:53.839Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:40:56.700Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:43:50.624Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:43:53.540Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllUsers" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllUsers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:44:19.742Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:46:14.667Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:46:22.574Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:47:28.129Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:47:30.999Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:47:39.782Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:47:45.861Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:47:52.747Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllUsers" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllUsers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:47:54.757Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:48:47.312Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:48:50.687Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:48:53.661Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:48:56.453Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:48:58.594Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:49:01.581Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:49:07.302Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:49:12.752Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:49:52.900Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:50:35.371Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:50:38.097Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:50:53.775Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:52:23.192Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:52:51.302Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:52:54.165Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:53:44.448Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:54:12.427Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:55:29.700Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:55:33.024Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:55:36.424Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:56:09.642Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:56:12.589Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:57:57.788Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:58:02.787Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:58:06.065Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:58:08.291Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:58:10.909Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "getAllFiles" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/getAllFiles/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:58:18.091Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:59:12.139Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:59:15.473Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T14:59:23.387Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T14:59:28.744Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T14:59:40.160Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:00:30.860Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:00:34.533Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:00:40.635Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:00:42.767Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:01:01.768Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:01:04.833Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:01:15.549Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:01:20.747Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:01:29.119Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:01:34.947Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:01:35.768Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:02:58.974Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:03:02.742Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:03:05.118Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:03:10.015Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:03:20.708Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:03:24.522Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:03:29.426Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:03:33.888Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:03:35.999Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:03:40.167Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:31.858Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:35.379Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:37.465Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:41.328Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:43.580Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:46.898Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:04:51.123Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:04:55.144Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "get" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:04:56.720Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:05:27.463Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:05:34.155Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:05:47.933Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:05:51.319Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:05:53.220Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:05:58.313Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:07:09.354Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:07:50.195Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:10:14.614Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:10:20.002Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:10:22.923Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:10:33.748Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:10:39.473Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:10:53.371Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:10:58.247Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:13:26.371Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:17:50.784Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:17:55.235Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:18:23.343Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:18:25.929Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:18:32.649Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:18:43.342Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:20:31.790Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:20:39.964Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:20:43.650Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:21:52.473Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:21:55.155Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:22:01.608Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:22:57.411Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:23:02.366Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:23:40.590Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:23:45.491Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:23:52.274Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:23:56.415Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:24:04.238Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:24:13.081Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:24:41.001Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:24:44.450Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:25:01.468Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:27:44.608Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:27:49.132Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:27:50.631Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:29:39.843Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:29:44.103Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:29:49.864Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:29:51.003Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (D:\My Project\file-library\src\controllers\/file.controller.js:8:30)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at fileUpload (D:\My Project\file-library\src\controllers\/file.controller.js:4:24)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at done (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:49:68)
+    at D:\My Project\file-library\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (D:\My Project\file-library\node_modules\multer\storage\disk.js:43:9) 
+    url - /api/v1/users/file/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:30:13.024Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:30:14.958Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:30:18.895Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:30:53.377Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:30:56.555Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:31:01.230Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:31:09.039Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:31:15.273Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set property 'token' of undefined
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:30:21)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/file/upload 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:31:25.402Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:31:37.330Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:31:40.848Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:31:44.346Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:31:49.726Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:31:54.804Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:32:01.711Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:32:07.203Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:32:12.710Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:32:15.519Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:32:20.885Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:32:27.861Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:32:35.662Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:33:06.686Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:33:11.937Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:46:54.498Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:46:58.519Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:49:04.150Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:49:08.439Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:49:11.371Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:49:44.662Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:49:48.118Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:49:51.354Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:50:31.724Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:50:36.706Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:50:41.376Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:50:43.483Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:54:32.156Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:54:35.122Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:54:37.359Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:54:48.215Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:54:54.291Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:55:02.261Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:55:06.364Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:55:09.937Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:57:11.485Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:57:15.629Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:57:54.513Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:58:03.006Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:58:19.114Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:58:22.708Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:58:30.247Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:58:32.638Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:58:37.539Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:58:40.851Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:58:46.383Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:58:51.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:59:02.712Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:59:08.336Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:59:13.041Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T15:59:18.717Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:59:19.773Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:59:44.642Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:59:47.543Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T15:59:55.003Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T15:59:57.594Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:00:32.508Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:00:36.817Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:00:39.576Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "file" (type string) at path "_id" for model "FileLibraryUser"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-06T16:00:42.932Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:00:56.996Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:00:59.726Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:01:24.150Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:01:26.773Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:01:29.083Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:01:31.913Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:01:35.285Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:01:38.815Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:02:24.582Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:02:27.313Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:02:43.850Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:02:48.647Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:05.090Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:03:07.894Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:10.199Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:03:12.823Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:17.388Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:20.146Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:03:22.668Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:24.896Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:03:27.577Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:03:29.574Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:03:32.168Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:05:14.587Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:05:18.932Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:05:21.983Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:05:40.697Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:05:47.729Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:06:25.566Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:06:33.376Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:06:53.752Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:06:56.014Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:06:58.831Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:11:28.302Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:11:30.451Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:11:32.996Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:11:35.326Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:11:39.485Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:11:42.163Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:12:39.534Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:12:43.062Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:12:47.975Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:12:50.501Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:12:56.679Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:12:59.235Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:16:28.631Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:16:31.355Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:17:46.831Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:17:49.664Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:18:11.582Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:18:14.357Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:18:17.383Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:21:56.792Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:22:00.660Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T16:22:29.732Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T16:22:33.513Z"}

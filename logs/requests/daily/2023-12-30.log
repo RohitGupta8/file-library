@@ -1,0 +1,114 @@
+info: ::1 - - [30/Dec/2023:14:29:33 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:29:33 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:29:46 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:30:06 +0000] "GET /api/v1/newUser HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:36:50 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:36:56 +0000] "POST /api/v1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:37:00 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:37:24 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:42:35 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:43:13 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:49:23 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:50:50 +0000] "GET /api/v1/newUser HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:52:13 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:56:41 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:57:36 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:58:18 +0000] "GET /api/v1/new HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:58:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:15:03:21 +0000] "POST /api/v1/users/new HTTP/1.1" 500 170 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:03:38 +0000] "POST /api/v1/users/new HTTP/1.1" 500 170 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:03:59 +0000] "POST /api/v1/users/new HTTP/1.1" 201 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:22:21 +0000] "GET /api/v1/users/ HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:29:14 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:41:35 +0000] "GET /api/v1/users/:_id HTTP/1.1" 500 126 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:41:46 +0000] "GET /api/v1/users/_id HTTP/1.1" 500 125 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:42:56 +0000] "GET /api/v1/users/id HTTP/1.1" 500 124 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:43:03 +0000] "GET /api/v1/users/id HTTP/1.1" 500 124 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:44:36 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:46:10 +0000] "GET /api/v1/users/?id=6590315ea7b466a84c921497 HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:24 +0000] "GET /api/v1/users/?id=6590315ea7b466a84c921497 HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:41 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:54 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:57:16 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:59:04 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:59:34 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:04:24 +0000] "POST /api/v1/users/new HTTP/1.1" 201 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:04:52 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:05:13 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:06:36 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:10 +0000] "POST /api/v1/users/new HTTP/1.1" 500 63 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:43 +0000] "POST /api/v1/users/new HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:58 +0000] "POST /api/v1/users/new HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:14:05 +0000] "POST /api/v1/users/new HTTP/1.1" 201 314 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:14:55 +0000] "POST /api/v1/users/new HTTP/1.1" 201 362 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:16:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:17:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 223 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:18:36 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:19:27 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:43:54 +0000] "POST /api/v1/users/new HTTP/1.1" 201 362 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:44:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 245 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:44:27 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:17:04:01 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:05:13 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:05:13 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:24:45 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:29:10 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:30:11 +0000] "GET /api/v1/ HTTP/1.1" 200 294 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:32:04 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+

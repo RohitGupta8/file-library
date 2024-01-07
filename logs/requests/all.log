@@ -1,0 +1,1006 @@
+info: ::1 - - [30/Dec/2023:14:29:33 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:29:33 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:29:46 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:30:06 +0000] "GET /api/v1/newUser HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:36:50 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:36:56 +0000] "POST /api/v1 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:37:00 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:37:24 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:42:35 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:43:13 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:49:23 +0000] "POST /api/v1/newUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:50:50 +0000] "GET /api/v1/newUser HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:52:13 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:56:41 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:57:36 +0000] "POST /api/v1/new HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:14:58:18 +0000] "GET /api/v1/new HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:14:58:27 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:15:03:21 +0000] "POST /api/v1/users/new HTTP/1.1" 500 170 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:03:38 +0000] "POST /api/v1/users/new HTTP/1.1" 500 170 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:03:59 +0000] "POST /api/v1/users/new HTTP/1.1" 201 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:22:21 +0000] "GET /api/v1/users/ HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:29:14 +0000] "GET /api/v1/users/:_id HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:41:35 +0000] "GET /api/v1/users/:_id HTTP/1.1" 500 126 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:41:46 +0000] "GET /api/v1/users/_id HTTP/1.1" 500 125 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:42:56 +0000] "GET /api/v1/users/id HTTP/1.1" 500 124 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:43:03 +0000] "GET /api/v1/users/id HTTP/1.1" 500 124 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:44:36 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:46:10 +0000] "GET /api/v1/users/?id=6590315ea7b466a84c921497 HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:24 +0000] "GET /api/v1/users/?id=6590315ea7b466a84c921497 HTTP/1.1" 200 37321 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:41 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:47:54 +0000] "GET /api/v1/users/6590315ea7b466a84c921497 HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:57:16 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:59:04 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:15:59:34 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:04:24 +0000] "POST /api/v1/users/new HTTP/1.1" 201 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:04:52 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:05:13 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:06:36 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:10 +0000] "POST /api/v1/users/new HTTP/1.1" 500 63 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:43 +0000] "POST /api/v1/users/new HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:08:58 +0000] "POST /api/v1/users/new HTTP/1.1" - - "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:14:05 +0000] "POST /api/v1/users/new HTTP/1.1" 201 314 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:14:55 +0000] "POST /api/v1/users/new HTTP/1.1" 201 362 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:16:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:17:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 223 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:18:36 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:19:27 +0000] "GET /api/v1/users/65903f880e0fbdad3c971f83 HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:43:54 +0000] "POST /api/v1/users/new HTTP/1.1" 201 362 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:44:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 245 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:16:44:27 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [30/Dec/2023:17:04:01 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:05:13 +0000] "GET /api/v1/users/ HTTP/1.1" 200 369 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:05:13 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3010
+Error: listen EADDRINUSE: address already in use :::3010
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sat Dec 30 2023 22:54:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3010,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4635326},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19327762,"external":21641421,"heapTotal":80273408,"heapUsed":50912704,"rss":125898752},"pid":16316,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3010\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+info: ::1 - - [30/Dec/2023:17:24:45 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3010
+Error: listen EADDRINUSE: address already in use :::3010
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sat Dec 30 2023 22:55:06 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3010,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4635364},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19697507,"external":22011166,"heapTotal":80007168,"heapUsed":53678344,"rss":125542400},"pid":45836,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3010\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3010
+Error: listen EADDRINUSE: address already in use :::3010
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sat Dec 30 2023 22:57:38 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3010,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4635516},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19685090,"external":21998749,"heapTotal":80269312,"heapUsed":54901824,"rss":126066688},"pid":42020,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3010\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+info: ::1 - - [30/Dec/2023:17:29:10 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:30:11 +0000] "GET /api/v1/ HTTP/1.1" 200 294 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/Dec/2023:17:32:04 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:04:33:44 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:34:53 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:35:42 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:37:57 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:38:56 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:43:28 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 79 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:46:35 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:48:36 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:49:19 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:51:39 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:04:52:10 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:04:32 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:05:25 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:06:30 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:05:06:30 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:05:06:48 +0000] "GET /api/v1/users/upload HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:05:07:08 +0000] "POST /api/v1/users/login HTTP/1.1" 200 245 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:08:41 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:12:10 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:14:10 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:16:06 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sun Dec 31 2023 11:01:03 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4678920},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18882037,"external":21217815,"heapTotal":88076288,"heapUsed":53765456,"rss":136462336},"pid":24868,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+info: ::1 - - [31/Dec/2023:05:31:18 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sun Dec 31 2023 11:01:30 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4678948},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19602161,"external":21937939,"heapTotal":87224320,"heapUsed":57139336,"rss":137490432},"pid":34704,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+info: ::1 - - [31/Dec/2023:05:32:02 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\build\index.js:39:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sun Dec 31 2023 11:02:53 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4679031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\My Project\\file-library\\build\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18690730,"external":20429312,"heapTotal":58802176,"heapUsed":28911184,"rss":87183360},"pid":44404,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\build\\index.js:39:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\build\\index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":75,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [31/Dec/2023:05:33:06 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:34:41 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:05:36:25 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sun Dec 31 2023 14:34:44 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4691741},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18896053,"external":21209712,"heapTotal":76333056,"heapUsed":48887952,"rss":121442304},"pid":46184,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\build\index.js:39:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sun Dec 31 2023 14:35:23 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4691780},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\My Project\\file-library\\build\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18817979,"external":20489348,"heapTotal":55709696,"heapUsed":27249160,"rss":81510400},"pid":612,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\build\\index.js:39:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\build\\index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":75,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\build\index.js:39:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sun Dec 31 2023 14:36:02 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4691819},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\My Project\\file-library\\build\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18817979,"external":20489348,"heapTotal":55971840,"heapUsed":27233608,"rss":81657856},"pid":45112,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\build\\index.js:39:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\build\\index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":75,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\build\index.js:39:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sun Dec 31 2023 14:45:27 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4692384},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\My Project\\file-library\\build\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18800238,"external":20471607,"heapTotal":55447552,"heapUsed":27284024,"rss":81108992},"pid":45016,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\build\\index.js:39:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\build\\index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":75,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [31/Dec/2023:09:19:27 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:20:03 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:21:58 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:23:27 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:25:49 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:26:50 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:27:24 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:27:44 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 51 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:28:14 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:33:57 +0000] "POST /api/v1/users/new HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:35:36 +0000] "POST /api/v1/users/new HTTP/1.1" 201 365 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:37:10 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:37:36 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:38:38 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:42:11 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:44:17 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:46:42 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 22 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:49:11 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:52:17 +0000] "POST /api/v1/users/new HTTP/1.1" 500 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:58:12 +0000] "POST /api/v1/users/new HTTP/1.1" 500 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:59:34 +0000] "POST /api/v1/users/new HTTP/1.1" 500 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:09:59:56 +0000] "POST /api/v1/users/new HTTP/1.1" 500 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:10:00:40 +0000] "POST /api/v1/users/new HTTP/1.1" 201 386 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [31/Dec/2023:10:03:06 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:06 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:09 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:10 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:18 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:18 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:03:36 +0000] "GET /api/v1/uploads//1704016839992.jpg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:04:01 +0000] "GET /api/v1/upload/uploads//1704016839992.jpg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:04:15 +0000] "GET /api/v1/user/uploads//1704016839992.jpg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/Dec/2023:10:30:45 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:12:52:06 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jan/2024:12:52:06 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Jan/2024:12:53:18 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:12:54:41 +0000] "POST /api/v1/users/user HTTP/1.1" 500 70 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:12:55:00 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:12:57:38 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:00:45 +0000] "POST /api/v1/users/user HTTP/1.1" 201 404 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:01:28 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1353 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:03:14 +0000] "DELETE /api/v1/users/65913bc84e9ecba294b92172 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:03:44 +0000] "DELETE /api/v1/users/659135e8fb7c5a7df8c85138 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:04:18 +0000] "GET /api/v1/users/ HTTP/1.1" 200 716 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:04:40 +0000] "DELETE /api/v1/users/659048ca9c5e19b6e4250581 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:04:46 +0000] "GET /api/v1/users/ HTTP/1.1" 200 411 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:05:43 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:05:58 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:06:24 +0000] "POST /api/v1/users/user HTTP/1.1" 201 402 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:11:20 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 404 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:12:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:13:07 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:15:25 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 215 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:19:50 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 281 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:22:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:22:36 +0000] "GET /api/v1/users/getAllFiles/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:28:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:29:24 +0000] "GET /api/v1/users/getAllFiles/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:30:02 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1103 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:31:20 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:33:24 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:38:30 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:39:03 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:39:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:40:21 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 80 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:46:45 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:47:10 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:47:33 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 74 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:53:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:54:56 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:13:57:17 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:06:38 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:08:58 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:10:11 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:11:49 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:12:46 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:13:53 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:20:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:20:38 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:22:31 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:27:23 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:28:25 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:28:45 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:30:02 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:31:56 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:35:55 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:36:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:36:33 +0000] "POST /api/v1/users/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:37:34 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 313 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:38:54 +0000] "POST /api/v1/users/upload HTTP/1.1" 200 317 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:39:21 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:40:06 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:41:25 +0000] "GET /api/v1/users/getAllFiles/65995178c705bd558891b2bf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:41:34 +0000] "GET /api/v1/users/65995178c705bd558891b2bf HTTP/1.1" 200 404 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:44:19 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:47:54 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:49:52 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:50:53 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:51:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:52:23 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:53:44 +0000] "GET /api/v1/users/getAllFiles HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:54:12 +0000] "GET /api/v1/users/getAllFiles/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:55:36 +0000] "GET /api/v1/users/getAllFiles/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:58:18 +0000] "GET /api/v1/users/getAllFiles/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:14:59:40 +0000] "GET /api/v1/users/get HTTP/1.1" 500 136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:00:40 +0000] "GET /api/v1/users/get HTTP/1.1" 500 136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:01:34 +0000] "GET /api/v1/users/get HTTP/1.1" 500 136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:03:05 +0000] "GET /api/v1/users/get HTTP/1.1" 500 136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:04:56 +0000] "GET /api/v1/users/get HTTP/1.1" 500 136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:06:28 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 315 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:07:09 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:07:27 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1103 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:07:50 +0000] "GET /api/v1/users/file/ HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:13:26 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:18:43 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:21:03 +0000] "GET /api/v1/users/65995178c705bd558891b2bf HTTP/1.1" 200 404 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:22:08 +0000] "GET /api/v1/users/file/65995178c705bd558891b2bf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:22:40 +0000] "GET /api/v1/users/file/65996c730c2b99e0342150f5 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:25:01 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:27:50 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:29:51 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:30:13 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 500 73 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:31:25 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 500 75 "-" "PostmanRuntime/7.36.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sat Jan 06 2024 21:11:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5233930},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19659721,"external":21977774,"heapTotal":81031168,"heapUsed":57919064,"rss":126885888},"pid":24176,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Module._compile (D:\My Project\file-library\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Object.newLoader [as .js] (D:\My Project\file-library\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.runMain (internal/modules/run_main.js:75:12)
+    at Object.<anonymous> (D:\My Project\file-library\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32) {"date":"Sat Jan 06 2024 21:11:44 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5233962},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18877577,"external":21191236,"heapTotal":77905920,"heapUsed":49127624,"rss":123940864},"pid":55832,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Module._compile (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Object.newLoader [as .js] (D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.runMain (internal/modules/run_main.js:75:12)\n    at Object.<anonymous> (D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":7,"file":"D:\\My Project\\file-library\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":75,"method":"runMain","native":false},{"column":12,"file":"D:\\My Project\\file-library\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (D:\My Project\file-library\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\My Project\file-library\build\index.js:39:5)
+    at Module._compile (internal/modules/cjs/loader.js:1114:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)
+    at Module.load (internal/modules/cjs/loader.js:979:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:819:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Sat Jan 06 2024 21:13:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":5234050},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\My Project\\file-library\\build\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18871550,"external":20542919,"heapTotal":55185408,"heapUsed":28309496,"rss":81010688},"pid":63428,"uid":null,"version":"v14.21.3"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\My Project\\file-library\\build\\index.js:39:5)\n    at Module._compile (internal/modules/cjs/loader.js:1114:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1143:10)\n    at Module.load (internal/modules/cjs/loader.js:979:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:819:12)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:75:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"D:\\My Project\\file-library\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\My Project\\file-library\\build\\index.js","function":null,"line":39,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1114,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1143,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":979,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":819,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":75,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [06/Jan/2024:15:47:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:48:09 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 331 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:49:08 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:49:48 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:50:41 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:54:37 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:55:10 +0000] "GET /api/v1/users/file HTTP/1.1" 200 915 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:59:18 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:15:59:58 +0000] "GET /api/v1/users/file HTTP/1.1" 200 915 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:00:42 +0000] "GET /api/v1/users/file HTTP/1.1" 500 137 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:01:05 +0000] "GET /api/v1/users/file HTTP/1.1" 200 915 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:04:30 +0000] "DELETE /api/v1/users/file/65913916a184229dd4f06389 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:05:48 +0000] "DELETE /api/v1/users/file/65913916a184229dd4f06389 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:06:34 +0000] "DELETE /api/v1/users/file/65913916a184229dd4f06389 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:08:07 +0000] "DELETE /api/v1/users/file/659142d47d309e2d40128334 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:08:25 +0000] "DELETE /api/v1/users/file/659951e2c705bd558891b2c2 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:08:44 +0000] "DELETE /api/v1/users/file/6599526cab8ded3ee8fc2015 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:08:49 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:09:14 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 313 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:09:22 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:10:35 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:12:10 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:13:04 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:13:43 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 317 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:13:56 +0000] "GET /api/v1/users/file HTTP/1.1" 200 287 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:16:58 +0000] "GET /api/v1/users/file HTTP/1.1" 200 2438 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:18:34 +0000] "GET /api/v1/users/file HTTP/1.1" 200 2438 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:20:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:20:50 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 313 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:21:31 +0000] "GET /api/v1/users/file HTTP/1.1" 200 319 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:23:13 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 331 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:16:23:24 +0000] "GET /api/v1/users/file HTTP/1.1" 200 1136 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:22:48:15 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:22:49:35 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:22:50:38 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:22:54:45 +0000] "POST /api/v1/users/user HTTP/1.1" 500 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:22:55:28 +0000] "POST /api/v1/users/user HTTP/1.1" 500 100 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:10:11 +0000] "POST /api/v1/users/user HTTP/1.1" 201 402 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:13:58 +0000] "POST /api/v1/users/admin HTTP/1.1" 201 405 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:14:19 +0000] "GET /api/v1/users/ HTTP/1.1" 200 1796 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:28:11 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 1796 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:29:25 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:29:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:30:17 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:30:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 309 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:31:43 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 1796 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:45:25 +0000] "POST /api/v1/users/user HTTP/1.1" 500 72 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:45:48 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:47:02 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:48:24 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:49:16 +0000] "POST /api/v1/users/user HTTP/1.1" 201 408 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [06/Jan/2024:23:52:13 +0000] "POST /api/v1/users/user HTTP/1.1" 201 447 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:39:58 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 318 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:42:04 +0000] "GET /api/v1/users/file HTTP/1.1" 200 1396 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:42:35 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 318 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:44:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 307 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:44:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 308 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:45:10 +0000] "GET /api/v1/users/file HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:46:19 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:46:42 +0000] "POST /api/v1/users/login HTTP/1.1" 200 308 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:47:30 +0000] "GET /api/v1/users/file HTTP/1.1" 200 1656 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:49:44 +0000] "DELETE /api/v1/users/65995050c705bd558891b2bd HTTP/1.1" 500 171 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:51:36 +0000] "DELETE /api/v1/users/65995050c705bd558891b2bd HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:51:59 +0000] "GET /api/v1/users/file HTTP/1.1" 200 1656 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:52:41 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:00:52:59 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2515 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:02:31 +0000] "DELETE /api/v1/users/65995050c705bd558891b2bd HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:02:37 +0000] "DELETE /api/v1/users/65995050c705bd558891b2bd HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:02:47 +0000] "GET /api/v1/users/file HTTP/1.1" 200 67 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:26:31 +0000] "GET /api/v1/users/file HTTP/1.1" 500 54 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:27:20 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 500 54 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:27:44 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2634 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:28:49 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 500 54 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:29:47 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 500 57 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:31:07 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2634 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:31:21 +0000] "GET /api/v1/users/file HTTP/1.1" 500 75 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:31:43 +0000] "DELETE /api/v1/users/65995050c705bd558891b2bd HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:31:51 +0000] "GET /api/v1/users/file HTTP/1.1" 500 75 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:36:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:37:14 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 318 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:37:29 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 310 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:37:46 +0000] "POST /api/v1/users/file/upload HTTP/1.1" 200 433 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:38:11 +0000] "GET /api/v1/users/file HTTP/1.1" 200 951 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:38:59 +0000] "DELETE /api/v1/users/6599e6fb57012df38860b853 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:39:10 +0000] "GET /api/v1/users/file HTTP/1.1" 500 75 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:01:41:23 +0000] "GET /api/v1/users/file HTTP/1.1" 401 35 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:08:36:26 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:08:39:03 +0000] "DELETE /api/v1/users/659a628a8ccc0f18e1f0ef0e HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:08:39:14 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:08:49:56 +0000] "DELETE /api/v1/users/659a6332752f24e7709591a6 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:08:50:02 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:10:53 +0000] "DELETE /api/v1/users/659a65ba752f24e7709591ab HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:11:00 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:11:45 +0000] "DELETE /api/v1/users/659a6aa4752f24e7709591b0 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:11:51 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:31:20 +0000] "DELETE /api/v1/users/659a6ad7752f24e7709591b5 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:31:35 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:33:20 +0000] "DELETE /api/v1/users/659a6f77752f24e7709591ba HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:33:34 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:36:29 +0000] "DELETE /api/v1/users/659a6feedca647227947e058 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:37:33 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:41:29 +0000] "POST /api/v1/users/user HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:41:47 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2636 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:42:09 +0000] "DELETE /api/v1/users/659a70dd625bb31fc595d6a3 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:42:15 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:46:48 +0000] "DELETE /api/v1/users/659a71f62cc23bf4682acbff HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:47:12 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:56:50 +0000] "DELETE /api/v1/users/659a731f6d12730a31f67161 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:57:20 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:09:57:58 +0000] "DELETE /api/v1/users/659a75805a5ec01ca104c6ce HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:10:06:21 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:10:07:54 +0000] "DELETE /api/v1/users/659a779d48d05820c9b747fa HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:10:08:00 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:10:11:23 +0000] "DELETE /api/v1/users/659a780060d3b525d15378d5 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:10:11:29 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:20:55 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2636 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:21:12 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 2636 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:21:38 +0000] "DELETE /api/v1/users/659a78d1bb0d40fed07c1db5 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:21:46 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:24:06 +0000] "DELETE /api/v1/users/659a894ae074922b243bfd5c HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:24:16 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:27:34 +0000] "DELETE /api/v1/users/659a89e0e074922b243bfd61 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:27:44 +0000] "POST /api/v1/users/user HTTP/1.1" 201 456 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:29:22 +0000] "POST /api/v1/users/user HTTP/1.1" 201 459 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:32:28 +0000] "DELETE /api/v1/users/659a8b12319c0b01506af225 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:32:34 +0000] "POST /api/v1/users/user HTTP/1.1" 201 459 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:34:41 +0000] "DELETE /api/v1/users/659a8bd1ab25da28cc2a1a79 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:34:48 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:36:25 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3007 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:38:25 +0000] "GET /api/v1/ HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:11:38:25 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:11:39:55 +0000] "DELETE /api/v1/users/659a8c58ab25da28cc2a1a7e HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:40:00 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:40:20 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyNzYwMCwiZXhwIjoxNzA2NDI3NjAwfQ.MDYCiGFtHcq8AZbjIJiQeKAaR4QKncr07A22kdwWozY HTTP/1.1" 200 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at D:\My Project\file-library\src\services\/user.service.js:88:18
+    at D:\My Project\file-library\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) {"date":"Sun Jan 07 2024 17:10:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4894},"process":{"argv":["node","D:\\My Project\\file-library\\src\\index.js"],"cwd":"D:\\My Project\\file-library","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18413004,"external":20735667,"heapTotal":49930240,"heapUsed":46701576,"rss":96727040},"pid":4560,"uid":null,"version":"v14.21.3"},"stack":"TypeError: callback is not a function\n    at D:\\My Project\\file-library\\src\\services\\/user.service.js:88:18\n    at D:\\My Project\\file-library\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (internal/process/task_queues.js:77:11)","trace":[{"column":18,"file":"D:\\My Project\\file-library\\src\\services\\/user.service.js","function":null,"line":88,"method":null,"native":false},{"column":18,"file":"D:\\My Project\\file-library\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [07/Jan/2024:11:44:58 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3007 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:45:20 +0000] "DELETE /api/v1/users/659a8d8fb310ed11d0f27dfc HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:45:46 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:45:56 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyNzk0NiwiZXhwIjoxNzA2NDI3OTQ2fQ.2m4jejWyRhwgYxwJI7P-BmBDk_mt56BcXHTYf4DfClI HTTP/1.1" 200 68 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:11:46:22 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3007 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:52:52 +0000] "DELETE /api/v1/users/659a8eea3f7a61284cf21b6e HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:54:58 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:55:10 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyODQ5OCwiZXhwIjoxNzA2NDI4NDk4fQ.A9KnBnIWwQzHgTzTZyDBVJNuyaOvAAjbsy-LNh_JGlM HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:11:58:08 +0000] "DELETE /api/v1/users/659a91122e8910162878c2e0 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:58:39 +0000] "DELETE /api/v1/users/659a91122e8910162878c2e0 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:58:44 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:11:58:53 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyODcyNCwiZXhwIjoxNzA2NDI4NzI0fQ.4SDdGOxg-nWCaLUNVMuUaKEDOPnSV-BYmqzKaC7nCMg HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:02:28 +0000] "DELETE /api/v1/users/659a91f47a670815849cf611 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:02:51 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:03:12 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyODk3MSwiZXhwIjoxNzA2NDI4OTcxfQ.h7Zh0UrRL6xVRtA3BvWPApJL4OmCAGeaBzDxRJvV_e4 HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:05:57 +0000] "DELETE /api/v1/users/659a92ea3ada150b7426e005 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:06:21 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:06:39 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyOTE4MSwiZXhwIjoxNzA2NDI5MTgxfQ.B2ygBXhMM8PeMNZvG7gAK3OgQAfunBxyjaSGCNjIV78 HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:08:25 +0000] "DELETE /api/v1/users/659a93bd8f08e01534170812 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:08:47 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:08:56 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyOTMyNywiZXhwIjoxNzA2NDI5MzI3fQ.BUK-2H_TKla4jY3VkgqlYyH-KT8WnX4MVUhRHTq4Gp0 HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:13:30 +0000] "DELETE /api/v1/users/659a944fe7149a16d855d0aa HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:13:47 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:13:57 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyOTYyNywiZXhwIjoxNzA2NDI5NjI3fQ.zf42fn9OIF5RldkTd9bmJVe9hpWldHAxZ7qHsukgmIM HTTP/1.1" 200 434 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:17:25 +0000] "DELETE /api/v1/users/659a957bc67afc358426e9e1 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:17:30 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:17:40 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyOTg1MCwiZXhwIjoxNzA2NDI5ODUwfQ.7qamVkCa2VMFGd4Byju-IojPkvZDkLjcTA_Wdro6Gqo HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:18:00 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3006 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:27:56 +0000] "DELETE /api/v1/users/659a965a6179b717944fef87 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:28:01 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:28:30 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYyOTg1MCwiZXhwIjoxNzA2NDI5ODUwfQ.7qamVkCa2VMFGd4Byju-IojPkvZDkLjcTA_Wdro6Gqo HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:31:31 +0000] "DELETE /api/v1/users/659a98d013a9bb060ca40f9a HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:31:36 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:31:46 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYzMDY5NiwiZXhwIjoxNzA2NDMwNjk2fQ.iEZX4DslB9oyXM8K8Zww76hxl8lqsnkzjnOGdbLiCmg HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:32:54 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3006 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:34:38 +0000] "DELETE /api/v1/users/659a99a89403a032784350bc HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:34:43 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:34:54 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYzMDg4MywiZXhwIjoxNzA2NDMwODgzfQ.yYm5D7mAaolLZWtc3rNjPNwFnb-KUIqu5sWExhW_sho HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Jan/2024:12:37:08 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:37:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:37:54 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3006 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:38:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:39:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:40:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:41:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:43:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:43:38 +0000] "GET /api/v1/users/getAllUsers HTTP/1.1" 200 3006 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:44:24 +0000] "POST /api/v1/users/login HTTP/1.1" 500 77 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:46:37 +0000] "POST /api/v1/users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:46:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:46:54 +0000] "POST /api/v1/users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:53:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 61 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:53:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:58:01 +0000] "DELETE /api/v1/users/659a9a6331504f2cf8cd14d9 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:58:06 +0000] "POST /api/v1/users/user HTTP/1.1" 201 458 "-" "PostmanRuntime/7.36.0"
+
+info: ::1 - - [07/Jan/2024:12:58:29 +0000] "GET /api/v1/users/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtYWlsIjoicm9oaXRnMjEzQGdtYWlsLmNvbSIsImlhdCI6MTcwNDYzMjI4NiwiZXhwIjoxNzA2NDMyMjg2fQ.P4fz7E7VVXvSlcZ5SgJ0mPGCrPhlCNuzLO5NHX-Qo-k HTTP/1.1" 200 433 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+

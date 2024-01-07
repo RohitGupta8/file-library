@@ -1,0 +1,1059 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:46:49.373Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:46:52.404Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T22:48:15.641Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:49:11.276Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:49:14.869Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:49:17.436Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:49:29.538Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:49:32.172Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T22:49:35.287Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:50:21.572Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:50:25.560Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:50:30.049Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:50:32.647Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:50:35.571Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:50:38.184Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T22:50:38.278Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:51:21.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:51:24.747Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:51:31.975Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:54:40.900Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:54:43.428Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\My Project\file-library\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\My Project\file-library\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee2$ (D:\My Project\file-library\src\services\/user.service.js:14:29)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T22:54:45.515Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:54:46.605Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:55:07.346Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:55:09.938Z"}
+error: 
+    status - 500 
+    message - ValidationError: FileLibraryUser validation failed: role: Path `role` is required.
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\My Project\file-library\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\My Project\file-library\node_modules\mongoose\lib\document.js:2786:32)
+    at D:\My Project\file-library\node_modules\mongoose\lib\document.js:2578:17
+    at D:\My Project\file-library\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (internal/process/task_queues.js:77:11) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T22:55:28.157Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:57:33.815Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:57:36.928Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T22:58:30.867Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T22:58:33.590Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:09:22.368Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:09:26.966Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:09:29.965Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:09:59.990Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:10:03.296Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:10:07.236Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:10:09.770Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:11:51.353Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:11:54.125Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:11:58.539Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:12:01.116Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:12:03.355Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:12:09.108Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:12:11.662Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:27:09.272Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:27:13.911Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:27:16.744Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:27:25.498Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:27:29.994Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:27:34.364Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:28:31.707Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:28:34.864Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:28:43.681Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:28:46.437Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:28:51.815Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:28:54.398Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:29:03.754Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:29:06.302Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/getAllUsers 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-06T23:29:25.581Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:32:23.922Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:32:26.595Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:32:32.293Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:32:34.951Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:32:39.421Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:32:41.955Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:36:04.433Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:36:07.248Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:38:27.973Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:38:31.695Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:38:38.356Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:38:41.026Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:38:44.509Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:38:47.132Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:38:49.449Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:38:51.984Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:39:25.299Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:39:28.422Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:39:40.225Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:39:43.979Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:39:46.763Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:39:50.043Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:39:52.589Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:40:33.611Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:40:36.772Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:40:39.671Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:40:46.398Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:40:48.521Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:40:52.897Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:40:55.623Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:41:13.388Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:41:15.967Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:41:19.536Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:41:22.092Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:41:43.619Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:41:46.163Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:42:52.904Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:42:55.515Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:03.390Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:09.106Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:12.217Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:14.811Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:43:17.342Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:46.563Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:43:49.118Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:56.672Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:43:59.039Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:01.222Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:03.490Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:05.504Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:44:08.200Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:30.473Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:34.321Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:38.749Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:44:41.241Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:44.723Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:44:47.591Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:51.007Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:44:53.845Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:44:56.450Z"}
+error: 
+    status - 500 
+    message - TypeError: data.role.uppercase is not a function
+    at _callee4$ (D:\My Project\file-library\src\controllers\/user.controller.js:77:29)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T23:45:25.431Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:45:41.702Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:45:44.638Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.filelibraryusers index: phone_1 dup key: { phone: 8527061985.0 } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-01-06T23:45:48.963Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\My Project\file-library\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\My Project\file-library\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\My Project\file-library\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\My Project\file-library\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\My Project\file-library\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\My Project\file-library\node_modules\express\lib\router\index.js:326:13)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\My Project\file-library\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\My Project\file-library\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T23:45:48.971Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:46:29.186Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:46:31.884Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:46:35.313Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:46:38.433Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:46:42.267Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:46:46.340Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:46:49.903Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.filelibraryusers index: mail_1 dup key: { mail: "saurabh@gmaill.com" } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-01-06T23:47:02.619Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\My Project\file-library\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\My Project\file-library\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\My Project\file-library\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\My Project\file-library\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\My Project\file-library\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\My Project\file-library\node_modules\express\lib\router\index.js:326:13)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\My Project\file-library\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\My Project\file-library\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T23:47:02.648Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:47:46.946Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:47:49.850Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:47:57.931Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:48:00.646Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:48:06.713Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:48:16.308Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:48:19.033Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:48:21.588Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.filelibraryusers index: mail_1 dup key: { mail: "saurabh@gmaill.com" } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-01-06T23:48:24.528Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\My Project\file-library\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\My Project\file-library\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\My Project\file-library\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\My Project\file-library\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\My Project\file-library\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\My Project\file-library\node_modules\express\lib\router\index.js:326:13)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\My Project\file-library\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\My Project\file-library\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-06T23:48:24.543Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:49:49.536Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:49:52.488Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:49:59.955Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:02.652Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:05.008Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:50:07.936Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:43.151Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:47.326Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:50:50.077Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:54.985Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:57.267Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:50:59.728Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:51:02.311Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:10.360Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:16.460Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:51:19.032Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:21.278Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:26.325Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:51:28.830Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:32.079Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:51:34.605Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:51:39.732Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:51:42.646Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-06T23:52:56.619Z"}
+info: Connected to the database. {"timestamp":"2024-01-06T23:52:59.286Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:33:10.868Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:33:13.505Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:38:49.503Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:38:52.456Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:39:27.017Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:39:29.810Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:39:32.467Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:39:39.838Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:39:42.572Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:40:36.779Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:40:39.930Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:40:43.150Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:40:45.859Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:40:48.067Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:40:50.680Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:41:02.798Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:41:05.439Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:41:09.014Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:41:11.922Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:41:17.162Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:41:19.715Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:41:22.181Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:41:27.282Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:41:32.834Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:41:35.398Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:44:42.261Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:44:45.131Z"}
+error: 
+    status - 500 
+    message - Error: Not Registered Yet
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:59:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T00:46:19.090Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:49:34.039Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:49:37.039Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ userId: '65995050c705bd558891b2bd' }" (type Object) at path "_id" for model "FileInformation"
+    at new MongooseError (D:\My Project\file-library\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\My Project\file-library\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/65995050c705bd558891b2bd 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2024-01-07T00:49:44.417Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:51:32.178Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:51:35.041Z"}
+error: 
+    status - 500 
+    message - Error: Not Registered Yet
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:59:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T00:52:40.992Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:55:00.311Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:55:03.113Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:55:05.694Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:55:10.154Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:55:12.723Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:55:22.111Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:55:25.320Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:55:34.269Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:55:36.822Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T00:58:47.312Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T00:58:50.048Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:01:57.449Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:02:00.699Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:02:04.191Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:02:07.232Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:02:10.431Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:02:14.291Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:02:19.877Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:02:25.914Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:11:48.727Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:11:52.816Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:11:55.973Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:13:10.771Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:13:15.150Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:16:51.488Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:16:54.202Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:17:43.496Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:17:46.243Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:25:26.035Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:25:30.392Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:25:33.032Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:25:37.411Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:25:40.226Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:46)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:26:31.324Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:46)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/getAllUsers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:27:20.287Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:27:35.141Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:27:37.995Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:27:40.439Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:27:43.681Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:28:31.925Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:28:35.424Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:28:42.061Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:28:44.706Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:46)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/getAllUsers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:28:49.462Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:29:28.773Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:29:31.915Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:29:43.471Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:29:46.104Z"}
+error: 
+    status - 500 
+    message - ReferenceError: decoded is not defined
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:15:39)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/getAllUsers 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:29:47.081Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:24.016Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:30:26.922Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:29.915Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:32.016Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:30:34.573Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:42.182Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:30:48.829Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:52.304Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:30:57.774Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:31:01.175Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:31:03.764Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'deletedAt' of null
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:30:15)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:31:21.810Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'deletedAt' of null
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:30:15)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:31:51.041Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:32:49.597Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:32:53.830Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:32:57.819Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:33:00.358Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:33:04.282Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:33:06.871Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'deletedAt' of null
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:30:15)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/file 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-07T01:39:10.879Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:40:05.565Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:40:08.573Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:40:23.295Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:40:25.871Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T01:41:16.026Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T01:41:18.687Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:33:46.916Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T05:33:49.911Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:16.128Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:21.536Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:24.715Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T05:34:28.526Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:36.948Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:41.723Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:45.446Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:48.712Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:53.802Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:34:57.183Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T05:34:59.729Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:01.890Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:05.724Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:09.063Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T05:35:12.233Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:16.257Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:20.524Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T05:35:25.609Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T05:35:28.616Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T08:35:40.237Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T08:35:42.891Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T08:38:41.646Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T08:38:45.075Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T08:38:48.569Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:31:57.129Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:32:01.150Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:32:28.429Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:32:31.567Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:32:50.010Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:32:53.525Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:33:03.944Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:33:07.397Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:35:59.271Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:36:01.885Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:36:05.383Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:36:08.648Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:41:21.795Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:41:27.335Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: express.filelibraryusers index: phone_1 dup key: { phone: 8527061965.0 } 
+      url - /api/v1/users/user 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-01-07T09:41:29.457Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\My Project\file-library\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\My Project\file-library\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\My Project\file-library\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\My Project\file-library\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\My Project\file-library\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\My Project\file-library\node_modules\express\lib\router\index.js:326:13)
+    at D:\My Project\file-library\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\My Project\file-library\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\My Project\file-library\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\My Project\file-library\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T09:41:29.464Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:46:18.148Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:46:21.254Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:57:11.814Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:57:14.876Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T09:57:44.169Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T09:57:47.932Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:07:25.985Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T10:07:30.474Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:08:57.667Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:08:59.919Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T10:09:03.175Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:10:03.837Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T10:10:07.464Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:10:18.036Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T10:10:21.118Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:10:56.233Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T10:11:03.218Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T10:11:06.358Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:20:40.211Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:20:43.471Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:27:04.125Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:27:07.323Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:30:02.908Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:30:06.123Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:31:58.148Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:32:01.626Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:32:04.204Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:32:06.275Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:32:08.951Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:32:12.767Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:32:16.286Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:39:25.311Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:39:28.878Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:39:35.123Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:39:38.317Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:42:40.997Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:42:44.232Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:42:58.605Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:02.001Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:06.425Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:14.156Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:17.196Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:43:20.222Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:22.842Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:25.718Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:43:28.828Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:39.046Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:43:44.615Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:48.591Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:43:51.890Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:43:54.346Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:43:57.511Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:44:03.634Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:44:08.070Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:44:11.260Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:44:13.400Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:44:16.864Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:44:44.420Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:44:47.661Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:44:50.991Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:44:54.582Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:53:44.125Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:53:48.015Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:54:09.529Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:54:13.731Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:54:18.669Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:54:22.215Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:56:04.286Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:56:08.171Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:56:10.163Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:56:15.150Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:57:22.808Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:57:26.470Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:57:40.067Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:57:43.402Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:58:20.024Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:58:23.347Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T11:58:25.774Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T11:58:28.939Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:02:05.701Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:02:10.354Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:04:47.833Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:04:52.034Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:04:55.164Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:04:58.613Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:02.998Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:05:07.091Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:24.571Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:28.103Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:30.554Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:32.508Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:05:38.465Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:05:41.404Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:15.492Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:18.313Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:07:22.328Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:29.405Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:41.001Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:43.378Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:07:46.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:48.681Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:07:51.280Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:07:54.300Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:08:03.501Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:08:06.836Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:08:10.145Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:12:30.669Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:12:37.855Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:12:41.228Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:12:46.496Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:12:49.455Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:12:51.531Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:12:54.731Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:13:13.110Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:13:16.030Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:15:33.034Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:15:36.208Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:15:39.360Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:15:42.383Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:15:46.552Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:15:49.670Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:18:29.769Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:18:33.202Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:18:40.419Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:18:43.429Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:21:42.692Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:21:46.853Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:23:30.948Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:23:32.859Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:23:34.429Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:23:37.636Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:25:16.088Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:25:20.420Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:25:32.160Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:25:35.169Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:25:44.330Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:25:47.882Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:26:23.988Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:26:32.482Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:26:36.375Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:26:41.647Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:26:45.186Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:27:20.385Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:27:25.009Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:27:28.255Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:27:30.681Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:27:33.908Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:29:20.684Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:29:24.235Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:29:41.071Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:29:43.161Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:29:46.210Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:29:49.495Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:29:55.355Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:00.765Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:05.628Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:07.868Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:13.877Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:30:16.852Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:23.319Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:30:26.639Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:28.814Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:30:31.794Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:30:39.738Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:30:42.833Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:34:12.746Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:34:16.239Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:35:49.178Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:35:52.568Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:36:34.646Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:36:40.412Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:36:47.073Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:36:50.215Z"}
+error: 
+    status - 500 
+    message - Error: Not Registered Yet
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:75:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:37:08.318Z"}
+error: 
+    status - 500 
+    message - Error: Not Registered Yet
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:75:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:37:33.573Z"}
+error: 
+    status - 500 
+    message - Error: Not Registered Yet
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:75:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:38:49.974Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:39:10.038Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:39:13.410Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:39:37.018Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:39:44.046Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:39:50.037Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:39:52.719Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:39:57.588Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:40:00.876Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:41:33.227Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:41:36.150Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:41:39.563Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:41:59.004Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:42:02.837Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:33.040Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:35.121Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:42:38.311Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:42.714Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:45.399Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:47.614Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:51.849Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:42:54.979Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:42:58.758Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:43:02.613Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:43:05.628Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:43:08.252Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:43:11.497Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:43:19.871Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:43:23.062Z"}
+error: 
+    status - 500 
+    message - Error: Account not verified / Invalid credentials
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:75:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:44:24.456Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:45:38.386Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:45:41.973Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:45:47.772Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:45:52.985Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:45:56.768Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:46:03.116Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:46:07.040Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:46:16.738Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:46:18.753Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:46:21.564Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:46:24.801Z"}
+error: 
+    status - 500 
+    message - Error: Account not verified .....
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:78:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:46:37.148Z"}
+error: 
+    status - 500 
+    message - Error: User not registered....
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:66:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:46:44.852Z"}
+error: 
+    status - 500 
+    message - Error: Account not verified .....
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:78:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:46:54.289Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:48:37.415Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:48:40.766Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:48:46.351Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:48:49.621Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:50:41.509Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:50:44.745Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:51:00.257Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:51:06.163Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:51:17.924Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:51:20.301Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:51:24.222Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:51:41.132Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:51:44.650Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:52:15.171Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:52:18.388Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:52:28.733Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:52:30.956Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:52:34.363Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:52:59.115Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:53:01.289Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:53:05.432Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:53:08.784Z"}
+error: 
+    status - 500 
+    message - Error: Account not verified .....
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:77:11)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-07T12:53:17.742Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:57:08.672Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:57:24.051Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T12:57:26.434Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T12:57:29.649Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:00:34.974Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:00:42.630Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:00:45.305Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:00:49.564Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:00:52.134Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:00:59.383Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:01:02.179Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:01:41.529Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:01:45.807Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:01:56.110Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:01:58.721Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:02:02.363Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:02:05.080Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:02:35.165Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:02:37.717Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:02:51.206Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:02:54.249Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:02:58.652Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:03:03.359Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:03:05.946Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:03:09.877Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:03:12.427Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:03:57.150Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:03:59.942Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:07:55.204Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:07:58.271Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:08:00.798Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:08:03.721Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-01-07T13:08:09.536Z"}
+info: Connected to the database. {"timestamp":"2024-01-07T13:08:12.187Z"}

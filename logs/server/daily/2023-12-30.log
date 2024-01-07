@@ -1,0 +1,211 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T13:58:57.962Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T13:59:00.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T14:51:55.561Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T14:51:58.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T14:57:00.621Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T14:57:03.416Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "clickn70" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/new 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:03:21.204Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "clickN70" fails to match the required pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/ 
+    url - /api/v1/users/new 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:03:38.953Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/:_id 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-12-30T15:29:14.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T15:40:11.300Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T15:40:14.350Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:41:35.870Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "_id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:41:46.402Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:42:56.957Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "id" (type string) at path "_id" for model "User"
+    at model.Query.exec (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\My Project\file-library\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:43:03.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T15:59:18.510Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T15:59:21.312Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\My Project\file-library\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\My Project\file-library\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\My Project\file-library\build\services\user.service.js:146:37)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-30T15:59:34.662Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/65903f880e0fbdad3c971f83 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-12-30T16:04:52.090Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/65903f880e0fbdad3c971f83 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-12-30T16:05:13.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:06:18.929Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:06:21.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:07:00.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:07:02.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:07:06.796Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:07:10.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:07:12.900Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:07:15.525Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phone" cannot be infinity 
+    url - /api/v1/users/new 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-30T16:08:10.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:09:08.821Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:09:11.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:09:45.493Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:09:49.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:10:10.626Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:10:13.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:11:14.396Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:11:17.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:12:54.289Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:12:58.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:13:57.433Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:14:00.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:14:34.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:14:39.191Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:14:41.830Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\My Project\file-library\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\My Project\file-library\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\My Project\file-library\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee6$ (D:\My Project\file-library\src\services\/user.service.js:51:32)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-12-30T16:16:03.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:18:09.080Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:18:11.843Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\My Project\file-library\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\My Project\file-library\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\My Project\file-library\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\My Project\file-library\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\My Project\file-library\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\My Project\file-library\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\My Project\file-library\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\My Project\file-library\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\My Project\file-library\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/65903f880e0fbdad3c971f83 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-12-30T16:18:36.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:19:03.262Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:19:05.134Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:19:07.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:19:13.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:19:18.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:19:21.513Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:19:24.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:20:45.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:20:50.069Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:20:53.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:20:57.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:21:05.345Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:21:07.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:21:10.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:21:12.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:21:16.204Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:21:18.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T16:43:46.642Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T16:43:49.362Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2023-12-30T17:04:56.215Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:04:59.337Z"}
+info: Server started at http://localhost:3010/api/v1/ {"timestamp":"2023-12-30T17:06:06.771Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:06:09.578Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:25:09.603Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:27:41.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T17:28:48.643Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:28:51.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T17:30:03.477Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:30:06.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T17:31:59.357Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:32:03.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-12-30T17:32:29.558Z"}
+info: Connected to the database. {"timestamp":"2023-12-30T17:32:32.238Z"}
